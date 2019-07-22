@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<head>
+		<title>X-2-Y</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+	</head> 
+	<body>
+        
+        <div class="newXY element">
+            <input type="text" id="newX" placeholder="X">
+            <span> to </span>
+            <input type="text" id="newY" placeholder="Y">
+            <input id="addButton" type="button" value="Add">
+        </div> 
+        
+        <button id="showButton" class="collapsible element">Show Xs &amp; Ys</button>
+        <div id="content" class="content">
+            <!-- XY -->
+            <input id="saveButton" class="element" type="button" value="Save" style="float: right">
+        </div>
+
+        <!-- A Template for XY pairs -->
+        <div id="XYtemplate" class="element" style="display: none">
+            <input type="text" class="X" disabled>
+            <span> to </span>
+            <input type="text" class="Y">
+            <input class="removeButton" type="button" value="Remove">
+        </div>   
+
+        
+        <!-- include LoadXY.js after all elements are loaded -->
+        <script type="text/javascript" src="src/index.js"></script>
+	</body>
+</html>
