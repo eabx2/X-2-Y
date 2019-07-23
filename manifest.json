@@ -6,7 +6,7 @@
     
     "browser_action": {
         "default_title": "Set Xs & Ys",
-		"default_popup": "index.html"
+		"default_popup": "html/index.html"
 	},
     
     "background": {
